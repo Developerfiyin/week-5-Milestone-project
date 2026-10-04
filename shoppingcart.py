@@ -1,15 +1,10 @@
 
-"""
-Welcome to ByteBox Tech Store! 🛒
-Build your dream tech setup by adding gadgets to your cart,
-remove anything you change your mind about, and see your final bill!
-"""
 
 items = []
 prices = []
 
 print("===================================")
-print("       🛒 BYTEBOX TECH STORE")
+print("  WELCOME  TO  SHOPPING STORE")
 print("===================================")
 
 while True:
@@ -30,7 +25,7 @@ while True:
         items.append(item)
         prices.append(price)
 
-        print(item, "has been added to your cart! 🛍️")
+        print(item, "has been added to your cart! ")
 
     # View the cart
     elif choice == "2":
@@ -67,7 +62,7 @@ while True:
                 items.pop(index)
                 prices.pop(index)
 
-                print(removed_item, "has been removed from your cart. 🗑️")
+                print(removed_item, "has been removed from your cart. ")
 
             else:
                 print("That item number is not valid.")
@@ -92,7 +87,7 @@ while True:
         print("        THANK YOU FOR SHOPPING!")
         print("===================================")
         print(f"Your final total is: ${total:.2f}")
-        print("Come back soon! 🚀")
+        print("Come back soon! ")
         break
 
     # Invalid menu option
