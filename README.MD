@@ -3,9 +3,6 @@
 IT PROMPTS THE USER TO INPUT WHAT THEY WOULD LOVE TO PURCHASE FROM THE STORE AND THEN PROCEEDS TO GIVE OPTIONS.
 
 
-
-
-
 Verify that your program works correctly by following each step in the following testing procedure:
 
 Test it with just one name.
